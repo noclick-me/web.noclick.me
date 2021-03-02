@@ -3,20 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/assets/noclick.png": "2c6895ca9ba0ef901a92bcd0fd1fc7b5",
-"assets/packages/golden_toolkit/fonts/Roboto-Regular.ttf": "ac3f799d5bbaf5196fab15ab8de8431c",
-"assets/FontManifest.json": "6f5744f40eb3064f030b4e03a74f67a5",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "fa9d8381ef3635dbd0a674bc7e0c6fee",
-"assets/AssetManifest.json": "2ef51839fe43bc6a70bce9bc7769db68",
-"version.json": "4617b344484c27f9cdf6c2177f9842cb",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "ecd99693e8ee454ce5a9224afda69e20",
-"manifest.json": "a77efe50f0f1f9aeb832bddc1764ee9d",
-"index.html": "1df367a0bd218ab75e980499f5422873",
-"/": "1df367a0bd218ab75e980499f5422873",
+  "main.dart.js": "65f1c9c5636968d5c1dd6a22682df660",
+"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1"
+"assets/NOTICES": "7ae2efa40e2f830943ab4a2232b0b7b8",
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/FontManifest.json": "6f5744f40eb3064f030b4e03a74f67a5",
+"assets/AssetManifest.json": "2ef51839fe43bc6a70bce9bc7769db68",
+"assets/assets/noclick.png": "2c6895ca9ba0ef901a92bcd0fd1fc7b5",
+"assets/packages/golden_toolkit/fonts/Roboto-Regular.ttf": "ac3f799d5bbaf5196fab15ab8de8431c",
+"version.json": "4617b344484c27f9cdf6c2177f9842cb",
+"manifest.json": "a77efe50f0f1f9aeb832bddc1764ee9d",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"index.html": "5938b1f84fb0bfb4736d06b73539fd92",
+"/": "5938b1f84fb0bfb4736d06b73539fd92"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -160,7 +160,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
