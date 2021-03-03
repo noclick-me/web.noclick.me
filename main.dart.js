@@ -62554,7 +62554,7 @@ $1:function(a){return D.rg(this.a.c.a,this.b)},
 $S:407}
 D.Fi.prototype={
 O:function(a,b){var s=null,r=E.Wk(s,s,s,C.u,s,s,s,s,C.u,s,s,s,s,s,C.u,s,C.u,s,C.u,s,C.u,s,C.u,s,C.u,s,s,s,s,C.u,s,s,s,s,s,s,s,s,s,C.lO,s,C.u),q=this.c
-return new M.DT("There are **"+H.c(q.b)+"** requests left for today (will be reset to\n"+H.c(q.a)+" in "+H.c(O.axA(q.c," and ",", "))+". This limitation exists to keep running costs\nmanageable. If you would like to see these limitations relaxed or completely\nremoved, please consider [supporting\nus](https://github.com/llucax/llucax/blob/main/sponsoring-platforms.md)!",!1,r,s,s,new D.Yo(b),s,s,s,s,s,s,C.A2,C.Ai,s)}}
+return new M.DT("There are **"+H.c(q.b)+"** requests left for today (will be reset to\n"+H.c(q.a)+" in "+H.c(O.axA(q.c," and ",", "))+"). This limitation exists to keep running costs\nmanageable. If you would like to see these limitations relaxed or completely\nremoved, please consider [supporting\nus](https://github.com/llucax/llucax/blob/main/sponsoring-platforms.md)!",!1,r,s,s,new D.Yo(b),s,s,s,s,s,s,C.A2,C.Ai,s)}}
 D.Yo.prototype={
 $3:function(a,b,c){return D.rg(b,this.a)},
 $S:408}
