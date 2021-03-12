@@ -13,10 +13,10 @@ const RESOURCES = {
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "assets/packages/golden_toolkit/fonts/Roboto-Regular.ttf": "ac3f799d5bbaf5196fab15ab8de8431c",
 "assets/FontManifest.json": "6f5744f40eb3064f030b4e03a74f67a5",
-"index.html": "19daba709065ee273489a84d546f5fef",
-"/": "19daba709065ee273489a84d546f5fef",
+"index.html": "85bab89d1abd577a1073d2b97a3a62f9",
+"/": "85bab89d1abd577a1073d2b97a3a62f9",
 "main.dart.js": "c4f0edd4d8aaeaffe3a80801ea959475",
-"version.json": "4617b344484c27f9cdf6c2177f9842cb",
+"version.json": "10ef66aadeec249ebe6954129e16adb0",
 "favicon.png": "77872e101909b306f027446bdf039d88"
 };
 
