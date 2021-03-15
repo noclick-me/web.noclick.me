@@ -14,9 +14,9 @@ const RESOURCES = {
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "assets/packages/golden_toolkit/fonts/Roboto-Regular.ttf": "ac3f799d5bbaf5196fab15ab8de8431c",
 "assets/FontManifest.json": "6f5744f40eb3064f030b4e03a74f67a5",
-"index.html": "fecfaa53be2764511c90170606a21b65",
-"/": "fecfaa53be2764511c90170606a21b65",
-"main.dart.js": "639cbff6825ca73ed5c264d96b5808db",
+"index.html": "344665f7a647f58cc7345a652e714356",
+"/": "344665f7a647f58cc7345a652e714356",
+"main.dart.js": "f240f4bf87695d34b5207d6508b46f23",
 "version.json": "10ef66aadeec249ebe6954129e16adb0",
 "favicon.png": "77872e101909b306f027446bdf039d88"
 };
