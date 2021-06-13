@@ -4,11 +4,11 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "10ef66aadeec249ebe6954129e16adb0",
-"main.dart.js": "fe25eb81d937039844884d78ae479d9a",
-"index.html": "dda3e0f8ead794d3eb539a85748c4101",
-"/": "dda3e0f8ead794d3eb539a85748c4101",
+"main.dart.js": "b4237269d28c16bb28e527a6150a1da1",
+"index.html": "836d92e24c1e799116893380a77aac79",
+"/": "836d92e24c1e799116893380a77aac79",
 "assets/packages/golden_toolkit/fonts/Roboto-Regular.ttf": "ac3f799d5bbaf5196fab15ab8de8431c",
-"assets/AssetManifest.json": "49d43242b76bf52a916547c5f1bbd264",
+"assets/AssetManifest.json": "4959b5c6e8490dd11608f36c8be448f7",
 "assets/NOTICES": "502f51c949396bc2f43cc32bcc82dba2",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/noclick.png": "2c6895ca9ba0ef901a92bcd0fd1fc7b5",
@@ -16,6 +16,7 @@ const RESOURCES = {
 "assets/assets/icons/github.svg": "cfe3dfe7b3e09e0f550a7aef3b1d09f6",
 "assets/assets/icons/contact.svg": "6e7c06405a0aea7844b8f3a09c5965d4",
 "assets/assets/icons/sponsor.svg": "d642536e21bc324220d8c3600dc89db5",
+"assets/doc/legal/terms.md": "28ab1c7d3164005bac3187a9c44e23c7",
 "assets/doc/legal/privacy.md": "ca4e5fc4b13843998e383033a41fb837",
 "assets/doc/sponsoring.md": "915477adb9f14cdda8e028d871bac0fe",
 "assets/FontManifest.json": "6f5744f40eb3064f030b4e03a74f67a5",
